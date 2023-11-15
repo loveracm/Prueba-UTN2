@@ -1,0 +1,70 @@
+body{
+    background:#38506E ;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: ;
+}
+header{
+    width: 100%;
+    height: 100%;
+    background-color: #0C132E;
+}
+.interior{
+    max-width: 100%;
+    height: 90px;
+    background-color: #0b132b;
+}
+.barra{
+    float: right;
+    display: flex;
+    align-items: center;
+    min-height: 90px;
+    z-index: 1000;
+}
+.barra ul {
+    list-style: none;
+    padding:  0 10px;
+}
+.barra ul li {
+    display: inline-block;
+    position: relative;
+    transition: 0.3s linear;
+    z-index: 1000;
+}
+.barraul li :hover{
+    transform: scale(1.1);
+}
+.barra ul li a {
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 12px 20px;
+    transition: 0.3s linear;
+}
+.barraul li a :hover{
+    color: #00c9bd;
+    transform: scale(1.1);
+}
+.barra ul li:hover .hijos{
+    display: block;
+}
+.barra .submenu .hijos{
+    display: none;
+    background: #0b132b;
+    position: absolute;
+    width:  100%;
+}
+.barra .submenu .hijos li {
+    display: block;
+    overflow: hidden;
+    border-bottom: none;
+}
+.barra .submenu .hijos li a {
+    display: block;
+}
