@@ -1,5 +1,8 @@
 body{
-    background: #38506E;
+    background-image: url(Img/artifact.gif);
+    background-attachment: fixed;
+    background-size: cover; 
+    background-position: center; 
 }
 .masVendidos{
     text-align: center;
@@ -9,7 +12,7 @@ body{
 
 .imagenes {
     color: azure;
-    background-color: rgb(56, 55, 55);
+    background-color: black;
     padding: 3%;
     display: flex;
     justify-content: space-between;
@@ -25,14 +28,13 @@ body{
     text-align: center;
     padding: 1%;
     color: #ffff;
-    background-color: #333;
+    background-color: black;
     border-width: 20px;
     border-radius: 10px;
     list-style-type: none;
     margin: 0;
     padding: 1%;
     overflow: hidden;
-    background-color: #333;
 }
 
 .navbar a {
@@ -49,7 +51,7 @@ body{
         /*Nosotros*/
 .nosotros {
     color: aliceblue;
-    background-color: rgb(56, 55, 55);
+    background-color: black;
     text-align: center;
     padding: 3%;
     border: 5px solid #333;
