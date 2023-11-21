@@ -1,70 +1,80 @@
 body{
-    background:#38506E ;
+    background: hsl(0, 0%, 99%);
 }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: ;
-}
-header{
-    width: 100%;
-    height: 100%;
-    background-color: #0C132E;
-}
-.interior{
-    max-width: 100%;
-    height: 90px;
-    background-color: #0b132b;
-}
-.barra{
-    float: right;
-    display: flex;
-    align-items: center;
-    min-height: 90px;
-    z-index: 1000;
-}
-.barra ul {
-    list-style: none;
-    padding:  0 10px;
-}
-.barra ul li {
-    display: inline-block;
-    position: relative;
-    transition: 0.3s linear;
-    z-index: 1000;
-}
-.barraul li :hover{
-    transform: scale(1.1);
-}
-.barra ul li a {
-    color: #ffffff;
+.masVendidos{
     text-align: center;
-    text-transform: uppercase;
-    font-size: 10px;
-    font-weight: bold;
-    padding: 12px 20px;
-    transition: 0.3s linear;
 }
-.barraul li a :hover{
-    color: #00c9bd;
+
+
+.imagenes {
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    border: 5px solid #333;
+    border-radius: 10px;
+    transition: 0.3;
+    }
+.imagenes :hover {
     transform: scale(1.1);
 }
-.barra ul li:hover .hijos{
-    display: block;
-}
-.barra .submenu .hijos{
-    display: none;
-    background: #0b132b;
-    position: absolute;
-    width:  100%;
-}
-.barra .submenu .hijos li {
-    display: block;
+/*navbar*/
+.navbar {
+    text-align: center;
+    padding: 1%;
+    color: #ffff;
+    background-color: #333;
+    border-width: 20px;
+    border-radius: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 1%;
     overflow: hidden;
-    border-bottom: none;
+    background-color: #333;
 }
-.barra .submenu .hijos li a {
-    display: block;
+
+.navbar a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: left; 
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+.navbar a:hover {
+        background-color: #111;}
+
+        /*Nosotros*/
+.nosotros {
+    text-align: center;
+    padding: 3%;
+    border: 5px solid #333;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+    margin: auto;
+ }
+.nosotros h1{
+    text-align: center;
+}
+
+/*Paginas*/
+
+.paginas{
+    text-align: center;
+    padding: 3%;
+    border: 5px solid #333;
+    border-radius: 10px;
+    margin: auto;
+}
+
+/*Categorias*/
+
+.categorias{
+        padding: 3%;
+        border: 5px solid #333;
+        border-radius: 10px;
+        margin: auto;
+}
+a {
+    text-decoration: none black;
 }
