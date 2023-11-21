@@ -1,12 +1,15 @@
 body{
-    background: hsl(0, 0%, 99%);
+    background: #38506E;
 }
 .masVendidos{
     text-align: center;
+    color: azure;
 }
 
 
 .imagenes {
+    color: azure;
+    background-color: rgb(56, 55, 55);
     padding: 3%;
     display: flex;
     justify-content: space-between;
@@ -45,6 +48,8 @@ body{
 
         /*Nosotros*/
 .nosotros {
+    color: aliceblue;
+    background-color: rgb(56, 55, 55);
     text-align: center;
     padding: 3%;
     border: 5px solid #333;
@@ -60,6 +65,8 @@ body{
 /*Paginas*/
 
 .paginas{
+    color: aliceblue;
+    background-color: black;
     text-align: center;
     padding: 3%;
     border: 5px solid #333;
@@ -70,11 +77,14 @@ body{
 /*Categorias*/
 
 .categorias{
+    color: antiquewhite;
+        background-color: black;
         padding: 3%;
         border: 5px solid #333;
         border-radius: 10px;
         margin: auto;
 }
 a {
-    text-decoration: none black;
+    text-decoration: none ;
+    color: aliceblue;
 }
