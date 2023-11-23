@@ -1,25 +1,26 @@
 body{
-    background-image: url(Img/artifact.gif);
+    background-image: url(Img/pryecto.gif);
     background-attachment: fixed;
     background-size: cover; 
     background-position: center; 
 }
+.texto{
+    text-align: center;
+    color: #79e911;
+}
 .masVendidos{
     text-align: center;
-    color: azure;
+    color: #79e911;
 }
 
 
-.imagenes {
-    color: azure;
-    background-color: black;
-    padding: 3%;
-    display: flex;
-    justify-content: space-between;
-    border: 5px solid #333;
-    border-radius: 10px;
-    transition: 0.3;
-    }
+
+.imagenes  {
+display: flex;
+justify-content: space-between;
+}
+
+
 .imagenes :hover {
     transform: scale(1.1);
 }
@@ -32,7 +33,7 @@ body{
     border-width: 20px;
     border-radius: 10px;
     list-style-type: none;
-    margin: 0;
+    margin: 0;z|
     padding: 1%;
     overflow: hidden;
 }
@@ -40,7 +41,7 @@ body{
 .navbar a {
         float: left;
         display: block;
-        color: white;
+        color: #79e911;
         text-align: left; 
         padding: 14px 16px;
         text-decoration: none;
@@ -56,8 +57,6 @@ body{
     padding: 3%;
     border: 5px solid #333;
     border-radius: 10px;
-    width: 400px;
-    height: 200px;
     margin: auto;
  }
 .nosotros h1{
@@ -67,20 +66,21 @@ body{
 /*Paginas*/
 
 .paginas{
-    color: aliceblue;
-    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: #79e911;
+    background-color: ;
     text-align: center;
     padding: 3%;
     border: 5px solid #333;
     border-radius: 10px;
-    margin: auto;
+    margin: auto;*/
 }
 
 /*Categorias*/
 
 .categorias{
-    color: antiquewhite;
-        background-color: black;
+    color: #79e911;
         padding: 3%;
         border: 5px solid #333;
         border-radius: 10px;
@@ -89,4 +89,8 @@ body{
 a {
     text-decoration: none ;
     color: aliceblue;
+}
+
+.premio {
+    display: none;
 }
