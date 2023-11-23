@@ -33,7 +33,7 @@ justify-content: space-between;
     border-width: 20px;
     border-radius: 10px;
     list-style-type: none;
-    margin: 0;z|
+    margin: 0;
     padding: 1%;
     overflow: hidden;
 }
@@ -65,11 +65,10 @@ justify-content: space-between;
 
 /*Paginas*/
 
-.paginas{
+.paginas {
     display: flex;
     justify-content: space-between;
     color: #79e911;
-    background-color: ;
     text-align: center;
     padding: 3%;
     border: 5px solid #333;
@@ -79,7 +78,7 @@ justify-content: space-between;
 
 /*Categorias*/
 
-.categorias{
+.categorias {
     color: #79e911;
     padding: 3%;
     border: 5px solid #333;
@@ -89,8 +88,4 @@ justify-content: space-between;
 a {
     text-decoration: none ;
     color: aliceblue;
-}
-
-.premio {
-    display: none;
 }
