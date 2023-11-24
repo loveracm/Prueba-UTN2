@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
   var toggleButton = document.getElementById('toggleButton');
-  var listaDesplegable = document.getElementById('listaDesplegable');
+  var listaDesplegable = document.getElementById('lista');
 
   toggleButton.addEventListener('click', function() {
       if (listaDesplegable.style.display === 'none') {

@@ -78,6 +78,17 @@ justify-content: space-between;
 
 /*Categorias*/
 
+.ocultar{
+    display: none;
+}
+
+.toggleButton {
+    background-color: #79e911;
+    color: black; 
+    border: none;
+    padding: 10px 20px;
+}
+
 .categorias {
     color: #79e911;
     padding: 3%;
@@ -88,4 +99,10 @@ justify-content: space-between;
 a {
     text-decoration: none ;
     color: aliceblue;
+}
+
+/* contactos*/
+.contacto{
+    display: flex;
+    justify-content:right;
 }
