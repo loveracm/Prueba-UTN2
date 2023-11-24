@@ -13,7 +13,10 @@ body{
     color: #79e911;
 }
 
-
+.letras{
+    text-align: center;
+    color: #79e911;
+}
 
 .imagenes  {
 display: flex;
@@ -83,11 +86,14 @@ justify-content: space-between;
 }
 
 .toggleButton {
-    background-color: #79e911;
-    color: black; 
+    background-color: #000000;
+    color:#79e911; 
     border: none;
     padding: 10px 20px;
 }
+
+.toggleButton:hover {
+    background-color: white;}
 
 .categorias {
     color: #79e911;
@@ -95,6 +101,8 @@ justify-content: space-between;
     border: 5px solid #333;
     border-radius: 10px;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
 a {
     text-decoration: none ;
