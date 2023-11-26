@@ -7,7 +7,7 @@ body{
     padding: 10px;
     color: white;
     text-align: center;
-    transition: top 0.3s; 
+    transition: top 0.4s; 
 }
 .navbar.fixed {
     position: fixed;
