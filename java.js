@@ -9,3 +9,12 @@ window.addEventListener('scroll', function() {
         navbar.classList.remove('fixed');
     }
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+    const oscuro = document.getElementById('oscuro');
+    const body = document.body;
+  
+    oscuro.addEventListener('click', function () {
+      body.classList.toggle('dark-mode');
+    });
+  });
