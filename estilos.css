@@ -2,11 +2,19 @@ body{
     background-color: #fff6ff;
 }
 /*barra nav*/
-.navbar{
-    padding: 20px;
+.navbar {
     background-color: #0e265f;
+    padding: 10px;
+    color: white;
     text-align: center;
+    transition: top 0.3s; 
 }
+.navbar.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 .navbar a {
     color:#eeecf5;
     text-decoration: none;
@@ -26,6 +34,7 @@ body{
     font-size: 30px;
     background-color: #0e265f;
     color: #eeecf5;
+    padding: 10px;
 }
 
 .foto {
@@ -77,15 +86,18 @@ body{
 }
 
 .html, .css, .javascript {
+    color: #e2e2e2;
     text-align: center;
     width: 200px;
     margin: 10px;
     padding: 15px;
-    border: 1px solid #0e2e64; 
-    background-color: #e2e2e2;
+    border: 1px solid #77777c ;
+    background-color: #0e2e64;
 }
 /*Contatos*/
 .contactos{
     display: flex;
-    justify-content: right;
+    justify-content: center;
+    border: 5px solid #77777c;
+    background-color: #0e2e64;
 }
