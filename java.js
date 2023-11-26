@@ -18,3 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
       body.classList.toggle('dark-mode');
     });
   });
+
+  window.addEventListener('load', function () {
+    alert('¡Bienvenidos a mi Página Web!');
+  });
