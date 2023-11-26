@@ -1,3 +1,7 @@
+window.addEventListener('load', function () {
+    console.log('Creador Carlos Lovera');
+  });
+
 window.addEventListener('scroll', function() {
     var navbar = document.getElementById('navbar');
     var contenido = document.getElementById('contenido');
@@ -21,4 +25,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
   window.addEventListener('load', function () {
     alert('¡Bienvenidos a mi Página Web!');
+  });
+
+  window.addEventListener('load', function () {
+    const enlaces = document.querySelectorAll('a');
+    console.log(`Número de enlaces: ${enlaces.length}`);
+  });
+  
+  window.addEventListener('load', function () {
+    // Contador de imágenes
+    const imagenes = document.querySelectorAll('img');
+    console.log(`Número de imágenes: ${imagenes.length}`);
   });
