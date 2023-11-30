@@ -2,7 +2,7 @@
     font-family: Raleway;
     src: url('./Font/Raleway-Regular.ttf')
 }
-/*modo oscuro*/
+/*Modo oscuro*/
 body{
 color: #20c1d9;
 }
@@ -12,7 +12,7 @@ color: #20c1d9;
     color: #eeecf5;
   }
 
-/*barra nav*/
+/*Nav*/
 .navbar {
     display: f;
     background-color: #0e265f;
@@ -76,7 +76,7 @@ color: #20c1d9;
     transform: scale(1.1);
   }
 
-  /*sobremi*/
+  /*Sobremi*/
 
   .detalles {
     display: flex;
@@ -91,7 +91,7 @@ color: #20c1d9;
 .perfil img, .intereses img, .ubicacion img {
     max-width: 100%;}
 
-    /*habilidades*/
+    /*Habilidades*/
 .habilidades{
     font-family: Raleway,serif ;
     text-align: center;
