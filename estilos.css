@@ -3,9 +3,8 @@
     src: url('./Font/Raleway-Regular.ttf')
 }
 /*modo oscuro*/
-body {
-    background-color: ;
-    color: #333;
+body{
+color: #20c1d9;
 }
 
 .dark-mode {
