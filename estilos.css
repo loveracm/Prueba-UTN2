@@ -1,4 +1,7 @@
-
+@font-face{
+    font-family: Raleway;
+    src: url('./Font/Raleway-Regular.ttf')
+}
 /*modo oscuro*/
 body {
     background-color: ;
@@ -12,6 +15,7 @@ body {
 
 /*barra nav*/
 .navbar {
+    display: f;
     background-color: #0e265f;
     padding: 10px;
     color: white;
@@ -39,11 +43,13 @@ body {
 
 /*Inicio*/
 .inicio {
+
     text-align: center;
     font-size: 30px;
     background-color: #0e265f;
     color: #eeecf5;
     padding: 10px;
+    font-family: Raleway,serif ;
 }
 
 .foto {
@@ -61,6 +67,7 @@ body {
   .sobremi{
     font-size: 25px;
     text-align: center;
+    font-family: Raleway,serif ;
     
   }
   #parrafo1 {
@@ -87,6 +94,7 @@ body {
 
     /*habilidades*/
 .habilidades{
+    font-family: Raleway,serif ;
     text-align: center;
     font-size: 25px;
 }

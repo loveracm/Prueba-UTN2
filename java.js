@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   window.addEventListener('load', function () {
-    alert('¡Bienvenidos a mi Página Web!');
+    alert('¡Bienvenidos Creador Carlos Lovera!');
   });
 
   window.addEventListener('load', function () {
@@ -33,7 +33,6 @@ document.addEventListener('DOMContentLoaded', function () {
   });
   
   window.addEventListener('load', function () {
-    // Contador de imágenes
     const imagenes = document.querySelectorAll('img');
     console.log(`Número de imágenes: ${imagenes.length}`);
   });
